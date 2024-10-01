@@ -3,7 +3,17 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
+/*modificações válidas apenas para alguns navegadores*/
+::-webkit-scrollbar{
+width: 20px;
 
+} 
+::-webkit-scrollbar-button{display: none;}
+
+::-webkit-scrollbar-thumb{background-color: rgba(255,255,255,0.2);border-radius: 50px;;}
+::-webkit-scrollbar-track{display: none;}
+::-webkit-scrollbar-track-piece{display: none;}
+/*modificações válidas apenas para alguns navegadores*/
 .carrossel {
     position: fixed;
     top: 0;
